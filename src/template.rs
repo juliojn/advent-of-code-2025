@@ -54,6 +54,6 @@ mod tests {
     fn test_01()
     {
         let input = fs::read_to_string("input/template/test_01.txt").unwrap();
-        assert_eq!(part_1(input), 1);
+        assert_eq!(part_1(&input), 1);
     }
 }

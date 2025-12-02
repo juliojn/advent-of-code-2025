@@ -1,5 +1,5 @@
-mod template;
+mod day_02;
 
 fn main() {
-    template::main();
+    day_02::main();
 }
